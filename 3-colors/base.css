@@ -8,9 +8,9 @@
  */
 
 * {
-	-fx-color-base: #82aff9;
+  -fx-color-base: #82aff9;
   -fx-text-color: #ffffff;
-	-fx-color-secondary: #9881f5;
+  -fx-color-secondary: #9881f5;
   -fx-color-accent: #f97d81;
 }
 
@@ -58,88 +58,88 @@
 .check-box > .box,
 .radio-button > .radio,
 .button {
-	-fx-border-width: 1px;
-	-fx-border-color: -fx-color-accent;
-	-fx-border-radius: 2px;
-	-fx-background-radius: 2px;
-	-fx-background-color: -fx-color-accent;
+  -fx-border-width: 1px;
+  -fx-border-color: -fx-color-accent;
+  -fx-border-radius: 2px;
+  -fx-background-radius: 2px;
+  -fx-background-color: -fx-color-accent;
 }
 .radio-button {
-	-fx-text-fill: -fx-text-color;
+  -fx-text-fill: -fx-text-color;
 }
 
 .check-box {
   -fx-text-fill: -fx-text-color;
 }
-.check-box > .box  > .mark {
+.check-box > .box > .mark {
   -fx-text-fill: -fx-text-color;
 }
 
 .check-box:hover > .box,
 .radio-button:hover > .radio,
 .button:hover {
-	-fx-border-color: -fx-color-accent;
+  -fx-border-color: -fx-color-accent;
 }
 .check-box > .box,
 .radio-button > .radio {
-	-fx-background-color: -fx-color-secondary;
+  -fx-background-color: -fx-color-secondary;
   -fx-text-fill: -fx-text-color;
 }
 .radio-button > .radio {
-	-fx-background-radius: 20px;
-	-fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-border-radius: 20px;
 }
 .button:pressed {
-	-fx-text-fill: -fx-mid-text-color;
+  -fx-text-fill: -fx-mid-text-color;
 }
 
 .combo-box {
-	-fx-border-width: 1px;
-	-fx-border-color: -fx-color-accent;
-	-fx-border-radius: 2px;
-	-fx-background-radius: 2px;
-	-fx-background-color: -fx-color-base;
+  -fx-border-width: 1px;
+  -fx-border-color: -fx-color-accent;
+  -fx-border-radius: 2px;
+  -fx-background-radius: 2px;
+  -fx-background-color: -fx-color-base;
   -fx-text-fill: -fx-text-color;
 }
 .combo-box:focused {
-	-fx-border-color: -fx-color-accent;
+  -fx-border-color: -fx-color-accent;
 }
 .combo-box:focused > .arrow-button {
-	-fx-border-color: -fx-color-accent;
+  -fx-border-color: -fx-color-accent;
 }
 .combo-box > .arrow-button {
-	-fx-background-color: -fx-color-base;
-	-fx-border-width: 0 0 0 1px;
-	-fx-border-color: -fx-color-accent;
+  -fx-background-color: -fx-color-base;
+  -fx-border-width: 0 0 0 1px;
+  -fx-border-color: -fx-color-accent;
 }
 .combo-box > .arrow-button > .arrow {
-	-fx-background-color: -fx-color-accent;
+  -fx-background-color: -fx-color-accent;
 }
 .combo-box:showing > .arrow-button,
 .combo-box > .arrow-button:hover {
-	-fx-background-color: -fx-color-base;
+  -fx-background-color: -fx-color-base;
 }
 .combo-box-popup > .list-view * .list-cell:selected {
-	-fx-background-color: -fx-color-accent;
-	-fx-text-fill: -fx-color-accent;
+  -fx-background-color: -fx-color-accent;
+  -fx-text-fill: -fx-color-accent;
 }
 .combo-box-popup > .list-view * .list-cell:hover {
-	-fx-background-color: -fx-color-accent;
-	-fx-text-fill: -fx-color-accent;
+  -fx-background-color: -fx-color-accent;
+  -fx-text-fill: -fx-color-accent;
 }
 
 .text-field {
-	-fx-border-width: 1px;
-	-fx-border-color: -fx-color-accent;
-	-fx-border-radius: 2px;
-	-fx-background-radius: 2px;
-	-fx-background-color: -fx-color-base;
+  -fx-border-width: 1px;
+  -fx-border-color: -fx-color-accent;
+  -fx-border-radius: 2px;
+  -fx-background-radius: 2px;
+  -fx-background-color: -fx-color-base;
   -fx-text-fill: -fx-text-color;
 }
 .text-field:focused {
-	-fx-border-color: -fx-color-accent;
+  -fx-border-color: -fx-color-accent;
   -fx-border-width: 2px;
-	-fx-highlight-text-fill: -fx-color-accent;
+  -fx-highlight-text-fill: -fx-color-accent;
 }
 
 .text-area {
@@ -159,99 +159,102 @@
   -fx-background-color: -fx-color-base;
 }
 
-.slider {}
-.slider > .track {
-	-fx-background-color: -fx-color-base;
-	-fx-background-insets: 1;
+.slider {
 }
 .slider > .track {
-	-fx-background-color: -fx-color-base;
-	-fx-background-insets: 1;
+  -fx-background-color: -fx-color-base;
+  -fx-background-insets: 1;
 }
-.slider > .axis {}
+.slider > .track {
+  -fx-background-color: -fx-color-base;
+  -fx-background-insets: 1;
+}
+.slider > .axis {
+}
 .slider > .thumb {
-	-fx-border-width: 0;
-	-fx-background-color: -fx-color-accent;
+  -fx-border-width: 0;
+  -fx-background-color: -fx-color-accent;
 }
 .slider:pressed .thumb {
-	-fx-border-radius: 200px;
-	-fx-border-insets: -5px;
-	-fx-border-width: 5px;
-	-fx-border-color: rgba(255, 255, 255, 0.1);
+  -fx-border-radius: 200px;
+  -fx-border-insets: -5px;
+  -fx-border-width: 5px;
+  -fx-border-color: rgba(255, 255, 255, 0.1);
 }
 
-.progress-bar {}
+.progress-bar {
+}
 .progress-bar > .track {
-	-fx-background-color: -fx-color-base;
-	-fx-background-insets: 1px;
+  -fx-background-color: -fx-color-base;
+  -fx-background-insets: 1px;
   -fx-text-fill: -fx-text-color;
 }
 .progress-bar > .track {
-	-fx-background-color: -fx-color-base;
-	-fx-background-insets: 1px;
+  -fx-background-color: -fx-color-base;
+  -fx-background-insets: 1px;
 }
 .progress-bar > .bar {
-	-fx-border-width: 0;
-	-fx-background-color: -fx-color-accent;
+  -fx-border-width: 0;
+  -fx-background-color: -fx-color-accent;
 }
 
 .table-view,
 .list-view,
 .tree-view {
-	-fx-border-width: 1px;
-	-fx-border-color: -fx-color-accent;
-	-fx-border-radius: 0px;
-	-fx-background-radius: 0px;
-	-fx-background-color: -fx-color-secondary;
+  -fx-border-width: 1px;
+  -fx-border-color: -fx-color-accent;
+  -fx-border-radius: 0px;
+  -fx-background-radius: 0px;
+  -fx-background-color: -fx-color-secondary;
 }
 .table-cell,
 .table-row-cell,
 .tree-table-row-cell,
 .tree-cell,
 .list-cell {
-	-fx-background-color: transparent;
+  -fx-background-color: transparent;
 }
 .table-cell:focused,
 .table-row-cell:focused,
 .tree-table-row-cell:focused,
 .tree-cell:focused,
 .list-view * .list-cell:focused {
-	-fx-background-color: -fx-color-accent;
-	-fx-text-fill: -fx-bg-darker;
+  -fx-background-color: -fx-color-accent;
+  -fx-text-fill: -fx-bg-darker;
 }
 .tree-cell:focused > .tree-disclosure-node > .arrow,
 .tree-table-row-cell:focused > .tree-disclosure-node > .arrow {
-    -fx-background-color: -fx-color-base;
+  -fx-background-color: -fx-color-base;
 }
 .table-column,
 .filler,
 .nested-column-header,
 .column-header-background {
-	-fx-border-width: 0;
-	-fx-background-color: transparent;
+  -fx-border-width: 0;
+  -fx-background-color: transparent;
 }
 .table-row-cell:focused .text {
-	-fx-fill: -fx-color-secondary;
+  -fx-fill: -fx-color-secondary;
 }
 .table-row-cell .text {
-	-fx-fill: -fx-color-secondary;
+  -fx-fill: -fx-color-secondary;
 }
 
 .tab-pane {
-	-fx-tab-min-width: 100px;
-	-fx-border-width: 0;
+  -fx-tab-min-width: 100px;
+  -fx-border-width: 0;
 }
 .tab-header-area {
-    -fx-padding: 0;
+  -fx-padding: 0;
 }
 .tab-header-background {
-	-fx-background-color: -fx-color-secondary;
-	-fx-border-width: 0;
+  -fx-background-color: -fx-color-secondary;
+  -fx-border-width: 0;
 }
 .tab {
-	-fx-padding: 4px;
-	-fx-background-color: -fx-color-secondary;
-	-fx-background-radius: 0;
+  -fx-padding: 4px;
+  -fx-background-color: -fx-color-secondary;
+  -fx-background-radius: 0;
 }
 .tab-label {
   -fx-text-fill: -fx-text-color;
@@ -259,62 +262,62 @@
 }
 
 .tab-pane:top > .tab-header-area > .headers-region > .tab {
-	-fx-border-width: 0 0 2px 0;
-	-fx-border-color: -fx-color-secondary;
+  -fx-border-width: 0 0 2px 0;
+  -fx-border-color: -fx-color-secondary;
 }
 .tab-pane:bottom > .tab-header-area > .headers-region > .tab {
-	-fx-border-width: 2px 0 0 0;
-	-fx-border-color: -fx-color-secondary;
+  -fx-border-width: 2px 0 0 0;
+  -fx-border-color: -fx-color-secondary;
 }
 
 .tab-pane:left > .tab-header-area > .headers-region > .tab {
-	-fx-border-width: 0 2px 0 0;
-	-fx-border-color: -fx-color-secondary;
+  -fx-border-width: 0 2px 0 0;
+  -fx-border-color: -fx-color-secondary;
 }
 .tab-pane:right > .tab-header-area > .headers-region > .tab {
-	-fx-border-width: 0 0 0 2px;
-	-fx-border-color: -fx-color-secondary;
+  -fx-border-width: 0 0 0 2px;
+  -fx-border-color: -fx-color-secondary;
 }
 .tab:selected {
-    -fx-border-color: -fx-color-accent !IMPORTANT;
+  -fx-border-color: -fx-color-accent !important;
 }
 .tab:selected .focus-indicator {
-	-fx-border-color: transparent;
+  -fx-border-color: transparent;
 }
 
 .scroll-bar {
-	-fx-background-color: transparent;
+  -fx-background-color: transparent;
 }
 .scroll-bar .thumb {
-	-fx-background-color: -fx-color-secondary;
-	-fx-background-radius: 0;
+  -fx-background-color: -fx-color-secondary;
+  -fx-background-radius: 0;
 }
 .scroll-bar .thumb:hover,
 .scroll-bar .thumb:pressed {
-	-fx-background-color: -fx-color-accent;
+  -fx-background-color: -fx-color-accent;
 }
 .scroll-bar .increment-button,
 .scroll-bar .decrement-button {
-	-fx-background-color: -fx-color-accent;
-	-fx-border-width: 0;
+  -fx-background-color: -fx-color-accent;
+  -fx-border-width: 0;
 }
 .scroll-bar .increment-button:hover,
 .scroll-bar .decrement-button:hover {
-	-fx-background-color: -fx-color-accent;
-	-fx-border-width: 0;
+  -fx-background-color: -fx-color-accent;
+  -fx-border-width: 0;
 }
 .scroll-bar .increment-button .increment-arrow,
 .scroll-bar .decrement-button .decrement-arrow {
-	-fx-background-color: -fx-color-secondary;
+  -fx-background-color: -fx-color-secondary;
 }
 .scroll-bar .increment-button:hover .increment-arrow,
 .scroll-bar .decrement-button:hover .decrement-arrow {
-	-fx-background-color: -fx-color-accent;
+  -fx-background-color: -fx-color-accent;
 }
 .scroll-bar .track {
-	-fx-background-color: -fx-color-base;
-	-fx-border-width: 1;
-	-fx-border-color: -fx-color-accent;
+  -fx-background-color: -fx-color-base;
+  -fx-border-width: 1;
+  -fx-border-color: -fx-color-accent;
 }
 
 .pagination {
@@ -334,15 +337,14 @@
   -fx-text-fill: -fx-text-color;
 }
 
-.pagination-control .left-arrow-button  {
+.pagination-control .left-arrow-button {
   -fx-background-color: -fx-color-accent;
   -fx-border-width: 0;
   -fx-text-fill: -fx-text-color;
 }
 
-.pagination-control .right-arrow-button  {
+.pagination-control .right-arrow-button {
   -fx-background-color: -fx-color-accent;
   -fx-border-width: 0;
   -fx-text-fill: -fx-text-color;
 }
-

@@ -1,0 +1,22 @@
+{
+  "name": "jfx-themes",
+  "version": "1.0.0",
+  "description": "A collection of simple JavaFX themes",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,css,html}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seven9nrh/jfx-themes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seven9nrh/jfx-themes/issues"
+  },
+  "homepage": "https://github.com/seven9nrh/jfx-themes#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
